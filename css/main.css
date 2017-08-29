@@ -1,19 +1,3 @@
-@media screen and (max-width: 799px) {
-    body {
-    	font-size: 12px;
-    }
-
-    h2 {
-    	font-size: 2em;
-    }
-}
-
-@media screen and (min-width: 800px) {
-    body {
-    	font-size: 16px;
-    }
-}
-
 body {	
 	background: url("../img/code_high.png") no-repeat center center fixed; 
   	-webkit-background-size: cover;
@@ -240,6 +224,31 @@ h1 {
 .about-bio p {
 	padding: 0 2.5em 2.5em;
     border-left: 1px dotted #b275e7;
+    font-size: 1.4em;
+}
+
+.preview-img {
+	position: relative;
+	height: 24em;
+	background-size: cover;
+	border: 3px solid #b275e7;
+}
+
+.caption-wrapper {
+	position: absolute;
+	background-color: #b275e7;
+	height: 9.6em;
+	width: 100%;
+	bottom: 0;
+	color: #FFF;
+}
+
+.caption {
+	margin-left: 14px;
+}
+
+.caption a {
+	color: #FFF;
 }
 
 .footer-content {
@@ -247,4 +256,59 @@ h1 {
 	background: url(../img/cherry-blossom-branch.svg) top left no-repeat;
 	float: right;
 	width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+	#work .content-side {
+		width: 12.499999995%;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+	.work {
+		margin-bottom: 1.4em;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+    body {
+    	font-size: 16px;
+    }
+
+    #about,
+    #work {
+    	padding-bottom: 2.5em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+    	font-size: 12px;
+    }
+
+    h2 {
+    	font-size: 2em;
+    }
+
+    .about-img {
+		text-align: center;
+		padding: 2.5em 0;
+	}
+
+	.about-img img {
+		width: 16em;
+	    border-radius: 30px;
+	    border: 4px solid #b275e7;
+	}
+
+	.about-bio {
+		padding-top: 0;
+	}
+
+	.about-bio p {
+		padding: 0 2.5em 2.5em;
+		border: none;
+	}
 }
