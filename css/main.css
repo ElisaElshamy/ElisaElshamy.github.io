@@ -20,6 +20,10 @@ h1 {
 	font-size: 4em;
 }
 
+h2 {
+	font-size: 3.2em;
+}
+
 .header h2 {
 	margin: 0 auto;
 	border-right: .1em solid black;
@@ -227,6 +231,10 @@ h1 {
     font-size: 1.4em;
 }
 
+.about-bio a {
+	color: #b275e7;
+}
+
 .preview-img {
 	position: relative;
 	height: 24em;
@@ -251,11 +259,65 @@ h1 {
 	color: #FFF;
 }
 
+#skills,
+.skills {
+	background-color: #dfdfdf;
+}
+
+.skills {
+	text-align: center;
+}
+
+.skills-icon {
+	height: 4em;
+}
+
+.skills-list {
+	list-style: none;
+	padding: 0;
+	font-size: 1.4em;
+}
+
+#contact,
+.contact {
+	background-color: #b275e7;
+}
+
+#contact h2 {
+	color: #dfdfdf;
+}
+
+.contact {
+	text-align: center;
+	padding: 5em 0 8em;
+	-o-transition: background .3s ease-in-out;
+  	-ms-transition: background .3s ease-in-out;
+  	-moz-transition: background .3s ease-in-out;
+  	-webkit-transition: background .3s ease-in-out;
+  	transition: background .3s ease-in-out; 
+}
+
+.contact:hover {
+	background-color: #dfdfdf;
+}
+
+.contact-icons {
+	height: 6em;
+}
+
+#footer {
+	border-top: 3px dotted #b275e7;
+}
+
+#footer,
 .footer-content {
-	border-top: 1px dotted #b275e7;
-	background: url(../img/cherry-blossom-branch.svg) top left no-repeat;
-	float: right;
-	width: 100%;
+	text-align: center;
+	background-color: #dfdfdf;
+	font-size: 1.2em;
+}
+
+.footer-content p {
+	padding: 0.6em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -278,7 +340,8 @@ h1 {
     }
 
     #about,
-    #work {
+    #work,
+    #skills {
     	padding-bottom: 2.5em;
     }
 }
