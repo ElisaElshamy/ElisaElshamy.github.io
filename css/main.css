@@ -1,14 +1,14 @@
 body {	
 	background: url(../img/code_high.png) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 header {
- background-color: #dfdfdf;
- border-bottom: solid 3px #b275e7;
+	background-color: #dfdfdf;
+	border-bottom: solid 3px #b275e7;
 }
 
 .header-content {
@@ -28,24 +28,24 @@ h2 {
 	margin: 0 auto;
 	border-right: .1em solid black;
 	overflow: hidden;
-  	white-space: nowrap; 
-  	width: 14.6em;
-  	display: inline-block;
-  	font-size: 2.2em;
-  	font-family: Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	white-space: nowrap; 
+	width: 14.6em;
+	display: inline-block;
+	font-size: 2.2em;
+	font-family: Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 	animation: typing 6s steps(33, end),
-				blink-caret 1s step-end infinite;
+	blink-caret 1s step-end infinite;
 }
 
 @keyframes typing {
 	from { width: 0 }
-   	to { width: 14.6em; }
-    
+	to { width: 14.6em; }
+	
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
+	from, to { border-color: transparent }
+	50% { border-color: black }
 }
 
 .code {
@@ -54,12 +54,12 @@ h2 {
 }
 
 .navbar-default {
-    background-color: transparent;
-    border-color: transparent; 
-    border-radius: 0;
-    font-size: 1.4em;
-    margin-bottom: 0;
-    width: 100%;
+	background-color: transparent;
+	border-color: transparent; 
+	border-radius: 0;
+	font-size: 1.4em;
+	margin-bottom: 0;
+	width: 100%;
 }
 
 .navbar .container-fluid {
@@ -68,20 +68,20 @@ h2 {
 
 .navbar-default .navbar-nav {
 	float: none;
-    margin: 0 auto;
-    display: inline-block;
-    border-bottom: 1px dotted #b275e7;
+	margin: 0 auto;
+	display: inline-block;
+	border-bottom: 1px dotted #b275e7;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #000;
-    padding: 20px;
+	color: #000;
+	padding: 20px;
 	display: inline-block;
 	-o-transition: background .3s ease-in-out;
-  	-ms-transition: background .3s ease-in-out;
-  	-moz-transition: background .3s ease-in-out;
-  	-webkit-transition: background .3s ease-in-out;
-  	transition: background .3s ease-in-out; 
+	-ms-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	-webkit-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out; 
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -90,8 +90,8 @@ h2 {
 }
 
 .glyphicon-menu-hamburger {
-  	font-size: 2em;
-  	color: #b275e7;
+	font-size: 2em;
+	color: #b275e7;
 }
 
 .header-icons {
@@ -106,10 +106,10 @@ h2 {
 	padding: 20px;
 	display: inline-block;
 	-o-transition: background .3s ease-in-out;
-  	-ms-transition: background .3s ease-in-out;
-  	-moz-transition: background .3s ease-in-out;
-  	-webkit-transition: background .3s ease-in-out;
-  	transition: background .3s ease-in-out;
+	-ms-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	-webkit-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
 }
 
 .icons:hover {
@@ -133,11 +133,11 @@ h2 {
 }
 
 #carousel-quotes .item{
-    background-color: transparent;
-    transition: opacity 4s ease-in-out;
-    -webkit-transition: opacity 4s ease-in-out;
-    -moz-transition: opacity 4s ease-in-out;
-    -o-transition: opacity 4s ease-in-out;
+	background-color: transparent;
+	transition: opacity 4s ease-in-out;
+	-webkit-transition: opacity 4s ease-in-out;
+	-moz-transition: opacity 4s ease-in-out;
+	-o-transition: opacity 4s ease-in-out;
 }
 
 #carousel-quotes .item,
@@ -171,8 +171,8 @@ h2 {
 }
 
 #carousel-quotes .carousel-caption {
-    color: #fff;
-    position: static;
+	color: #fff;
+	position: static;
 }
 
 #carousel-quotes .carousel-caption p {
@@ -219,8 +219,8 @@ h2 {
 
 .about-img img {
 	width: 16em;
-    border-radius: 30px;
-    border: 4px solid #b275e7;
+	border-radius: 30px;
+	border: 4px solid #b275e7;
 }
 
 .about-bio {
@@ -229,8 +229,8 @@ h2 {
 
 .about-bio p {
 	padding: 0 2.5em 2.5em;
-    border-left: 1px dotted #b275e7;
-    font-size: 1.4em;
+	border-left: 1px dotted #b275e7;
+	font-size: 1.4em;
 }
 
 .about-bio a {
@@ -305,10 +305,10 @@ h2 {
 	text-align: center;
 	padding: 5em 0 8em;
 	-o-transition: background .3s ease-in-out;
-  	-ms-transition: background .3s ease-in-out;
-  	-moz-transition: background .3s ease-in-out;
-  	-webkit-transition: background .3s ease-in-out;
-  	transition: background .3s ease-in-out; 
+	-ms-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	-webkit-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out; 
 }
 
 .contact:hover {
@@ -353,8 +353,8 @@ h2 {
 
 	.about-img img {
 		width: 16em;
-	    border-radius: 30px;
-	    border: 4px solid #b275e7;
+		border-radius: 30px;
+		border: 4px solid #b275e7;
 	}
 
 	.about-bio {
@@ -369,30 +369,30 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
-    body {
-    	font-size: 16px;
-    }
+	body {
+		font-size: 16px;
+	}
 
-    #about,
-    #work,
-    #skills {
-    	padding-bottom: 2.5em;
-    }
+	#about,
+	#work,
+	#skills {
+		padding-bottom: 2.5em;
+	}
 }
 
 @media screen and (max-width: 767px) {
-    body {
-    	font-size: 12px;
-    }
+	body {
+		font-size: 12px;
+	}
 
-    h2 {
-    	font-size: 2em;
-    }
+	h2 {
+		font-size: 2em;
+	}
 }
 
 @media screen and (max-width: 480px) {
 
-    .header h2 {
-    	font-size: 1.5em;
-    }
+	.header h2 {
+		font-size: 1.5em;
+	}
 }
