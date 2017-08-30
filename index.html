@@ -9,8 +9,10 @@
  	</head>
  	<body>
  		<div class="container-fluid">
+
  			<header class="row header">
-  			<div class="header-content col-12">
+
+  			<div class="header-content col-xs-12">
           <h3 class="code">&lt;profile&gt;</h3>
           <h1>Elisa Elshamy</h1>
           <h2 class="subtitle code">Full Stack Web Developer</h2>
@@ -41,21 +43,18 @@
 
           <div class="header-icons">
             <a href="https://github.com/ElisaElshamy" class="icons" target="_blank">
-              <img class="github" src="img/github.svg" />
+              <img class="github" src="img/github.svg" alt="Github" />
             </a>
             <a href="mailto:elisa9el@gmail.com" class="icons" target="_blank">
-              <img class="email" src="img/email.svg" />
+              <img class="email" src="img/email.svg" alt="Email" />
             </a>
             <a href="https://www.linkedin.com/in/elisa-elshamy-8a21a313/" class="icons" target="_blank">
-              <img class="linkedin" src="img/linkedin.svg" />
+              <img class="linkedin" src="img/linkedin.svg" alt="Linkedin" />
             </a>
           </div>
 				</div>
 			</header>
 
-      <div class="row">
-        <div class="col-12 divider"></div>
-      </div>
 
       <div id="home" class="row content">
         <div class="col-md-1 content-side"></div>
@@ -115,17 +114,18 @@
             <div class="col-md-1 content-side"></div>
           </div><!-- /.row content-->
 
-        <div id="about" class="row">
           <div class="row">
-            <div class="section-title">
+        <div class="col-xs-12 divider"></div>
+      </div>
+
+        <div id="about" class="row">
+            <div class="section-title col-xs-12">
               <h2 class="code">&lt;About&gt;</h2>
             </div>
-          </div>
-          <div class="col-sm-1 content-side"></div>
-            <div class="col-sm-5 contents about about-img">
-              <img src="img/profile_pic2.jpg" />
+            <div class="col-xs-12 col-md-offset-1 col-md-5 contents about about-img">
+              <img src="img/profile_pic2.jpg" alt="profile pic" />
             </div><!-- /.about img-->
-            <div class="col-sm-6 contents about about-bio">
+            <div class="col-xs-12 col-md-6 contents about about-bio">
               <p>
                 Hi. I am a web developer from Brooklyn, New York.  I enjoy working on the back-end mostly, but I am always up for challenging my front-end skills as well.  Currently, I work remotely full-time for a non-profit organization as a Drupal developer.  I have a lot of experience with Drupal and PHP, but I also dabble in Python, Javascript, CSS & HTML.  You can say I'm a Jill of all trades and a master of some.  If you have a project that you'd think I'd be a good fit for, feel free to <a href="#" class="scroll-link" data-id="contact">contact me</a>.
               </p>
@@ -133,16 +133,13 @@
         </div>
 
         <div id="work" class="row">
-          <div class="row">
-            <div class="section-title">
+            <div class="section-title col-xs-12">
               <h2 class="code">&lt;Work&gt;</h2>
             </div>
-          </div>
 
-          <div class="row">
             <div class="col-lg-1 content-side"></div>
             <div class="work col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-3">
-              <div class="preview-img" style="background-image: url('img/blog_project.png');">
+              <div class="preview-img blog">
                 <div class="caption-wrapper">
                   <div class="caption">
                     <a href="https://github.com/ElisaElshamy/user-blog"><h3>Multi-User Blog</h3></a>
@@ -152,7 +149,7 @@
               </div> 
             </div><!-- /.work -->
             <div class="work col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-3">
-              <div class="preview-img" style="background-image: url('img/map_project.gif');">
+              <div class="preview-img map">
                 <div class="caption-wrapper">
                   <div class="caption">
                     <a href="https://github.com/ElisaElshamy/map"><h3>Favorite Restaurants</h3></a>
@@ -162,7 +159,7 @@
               </div>
             </div><!-- /.work -->
             <div class="work col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-3">
-              <div class="preview-img" style="background-image: url('img/catalog_project.png');">
+              <div class="preview-img catalog">
                 <div class="caption-wrapper">
                   <div class="caption">
                     <a href="https://github.com/ElisaElshamy/ItemCatalog"><h3>Video Game Genre Catalog</h3></a>
@@ -172,18 +169,15 @@
               </div>            
             </div><!-- /.work -->
             <div class="col-lg-1 content-side"></div>
-          </div>
         </div><!-- /.row content-->
 
-          <div class="row">
-            <div id="skills" class="row">
-              <div class="row">
-                <div class="section-title">
+          <div id="skills" class="row">
+                <div class="section-title col-xs-12">
                   <h2 class="code">&lt;Skills&gt;</h2>
                 </div>
-              </div>
+
               <div class="skills col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
-                <img class="skills-icon window" src="img/window.svg" />
+                <img class="skills-icon window" src="img/window.svg" alt="terminal" />
                 <div class="skill-list-wrapper">
                   <h3 class="code">&lt;Languages&gt;</h3>
                   <ul class="skills-list">
@@ -195,8 +189,9 @@
                   </ul>
                 </div>
               </div>
+
               <div class="skills col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
-                <img class="skills-icon coding" src="img/code.svg" />
+                <img class="skills-icon coding" src="img/code.svg" alt="code" />
                 <div class="skill-list-wrapper">
                   <h3 class="code">&lt;Frameworks&gt;</h3>
                   <ul class="skills-list">
@@ -208,8 +203,9 @@
                   </ul>
                 </div>
               </div>
+
               <div class="skills col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
-                <img class="skills-icon gear" src="img/gear.svg" />
+                <img class="skills-icon gear" src="img/gear.svg" alt="gear" />
                 <div class="skill-list-wrapper">
                   <h3 class="code">&lt;All Else&gt;</h3>
                   <ul class="skills-list">
@@ -222,46 +218,50 @@
                   </ul>
                 </div>
               </div>
-            </div><!-- /.skills -->
-          </div><!-- /.row content-->
 
-          <div class="row">
+            </div><!-- /.skills -->
+
+
             <div id="contact" class="row">
-              <div class="row">
-                <div class="section-title">
+
+                <div class="section-title col-xs-12">
                   <h2 class="code">&lt;Contact&gt;</h2>
                 </div>
-              </div>
+
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
               <a href="https://github.com/ElisaElshamy" target="_blank">
-                <div class="contact col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
-                  <img class="contact-icons" src="img/github.svg" />
+                <div class="contact">
+                  <img class="contact-icons" src="img/github.svg" alt="Github" />
                 </div>
               </a>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
               <a href="mailto:elisa9el@gmail.com" target="_blank">
-                <div class="contact col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
-                  <img class="contact-icons" src="img/email.svg" />
+                <div class="contact">
+                  <img class="contact-icons" src="img/email.svg" alt="Email" />
                 </div>
               </a>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
               <a href="https://www.linkedin.com/in/elisa-elshamy-8a21a313/" target="_blank">
-                <div class="contact col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
-                  <img class="contact-icons" src="img/linkedin.svg" />
+                <div class="contact">
+                  <img class="contact-icons" src="img/linkedin.svg" alt="Linkedin" />
                 </div>
               </a>
+            </div>
             </div><!-- /.contact -->
-          </div><!-- /.row content-->
 
       <footer id="footer" class="row">
-        <div class="footer-content col-12">
+        <div class="footer-content col-xs-12">
           <p class="code">Elisa Elshamy 2017 &copy;</p>
         </div>
       </footer>
 
- 		</div>
+ 		</div><!-- /.container-fluid -->
  		
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="typed/js/typed.js"></script>
     <script src="js/main.js"></script>
  	</body>
  </html>
